@@ -1,5 +1,6 @@
 package executa;
 
+import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -36,8 +37,8 @@ public class Executa extends DriversFactory {
 		
 		
 	}
-	
-	public void fecharNavegador() {
+	//@AfterClass
+	public static void fecharNavegador() {
 		driver.quit();
 	}
 

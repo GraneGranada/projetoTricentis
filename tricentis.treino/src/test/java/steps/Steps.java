@@ -51,7 +51,7 @@ public class Steps {
 
 	@When("envio cotacao")
 	public void envio_cotacao() {
-	   page5.sendQuote("marco@teste.com", "25252525", "marcoG", "Teste1", "Teste1", "Gostei dos valores e coberturas");
+		 page5.sendQuote("marco@teste.com", "25252525", "marcoG", "Teste1", "Teste1", "Gostei dos valores e coberturas");
 	}
 
 	@Then("cotacao enviada com sucesso")

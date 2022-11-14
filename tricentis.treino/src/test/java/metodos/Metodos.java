@@ -64,8 +64,12 @@ public class Metodos extends DriversFactory {
 	}
 	
 	public void validarTexto(By elemento, String textoEsperado) {
+		WebElement element = new WebDriverWait(driver, Duration.ofSeconds(20))
+				.until(ExpectedConditions.elementToBeClickable(elemento));
+		element.getAttribute(textoEsperado);
 		String textoCapturado = driver.findElement(elemento).getText();
 		assertTrue(textoCapturado.contains(textoEsperado));
+		
 		
 	}
 	
@@ -78,7 +82,9 @@ public class Metodos extends DriversFactory {
 	}
 	
 	public void esperarElemento(By elemento) {
-		WebElement element = new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(elemento));
+		WebElement element = new WebDriverWait(driver, Duration.ofSeconds(10))
+				.until(ExpectedConditions.elementToBeClickable(elemento));
+		element.click();
 		
 	}
 

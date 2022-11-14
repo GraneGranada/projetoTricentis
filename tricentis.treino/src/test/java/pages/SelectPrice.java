@@ -14,7 +14,10 @@ public class SelectPrice {
 		metodos.pausa(2000);;
 		metodos.clicar(el.selectP, "select price");
 		metodos.pausa(2000);
-		metodos.clicar(el.next4, "next 4");
+		metodos.esperarElemento(el.download);
+		//metodos.esperarElemento(el.next4);
+		
+		
 		
 	}
 

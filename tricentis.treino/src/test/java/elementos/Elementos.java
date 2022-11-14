@@ -42,6 +42,7 @@ public class Elementos {
 	public By next3 = By.xpath("//button[@name='Next (Select Price Option)']");
 	
 	public By selectP = By.xpath("//th[@colspan='4']//label[4]");
+	public By download = By.xpath("//a[@id='downloadquote']");
 	public By next4 = By.xpath("//button[@name='Next (Send Quote)']");          
 	
 	public By email = By.xpath("//input[@name='E-Mail']");
@@ -50,6 +51,8 @@ public class Elementos {
 	public By passwoard = By.xpath("//input[@name='Password']");
 	public By confirmPasswoard = By.xpath("//input[@name='Confirm Password']");
 	public By coments = By.xpath("//textarea[@name='Comments']");
-	public By btnSend = By.xpath("//button[@name='Send E-Mail']");  
+	public By btnSend = By.xpath("//button[@name='Send E-Mail']");
+	public By msgSucefull = By.xpath("//h2[text()='Sending e-mail success!']");
+	public By btnOk = By.xpath("//button[text()='OK']");
 	
 			}
