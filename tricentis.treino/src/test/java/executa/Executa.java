@@ -28,7 +28,10 @@ public class Executa extends DriversFactory {
 		driver.manage().window().maximize();
 
 	}
+<<<<<<< HEAD
 
+=======
+>>>>>>> ee139b02a12546508e147bd99eaf5609d00b2e37
 	@AfterClass
 	public static void fecharNavegador() {
 		driver.quit();
