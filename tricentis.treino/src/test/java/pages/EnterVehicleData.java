@@ -21,6 +21,7 @@ public class EnterVehicleData {
 		metodos.clicar(el.occupation, "Ocupacao");
 		metodos.clicar(el.hobbies, "hobbies");
 		metodos.preencher(el.website, website, "Website");
+		metodos.evidencias("EnterVehicle");
 		metodos.clicar(el.next2, "next");
 		
 	}

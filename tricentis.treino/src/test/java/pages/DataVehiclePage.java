@@ -24,6 +24,7 @@ public class DataVehiclePage {
 		metodos.preencher(el.listP, listP, "lista");
 		metodos.preencher(el.license, licenseP, "licenca");
 		metodos.preencher(el.annual, annualM, "ano");
+		metodos.evidencias("data");
 		metodos.clicar(el.next1, annualM);
 		
 		

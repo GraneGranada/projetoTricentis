@@ -16,6 +16,7 @@ public class ProductData {
 		metodos.clicar(el.damageI, "damage");
 		metodos.clicar(el.optional, "opcionais");
 		metodos.clicar(el.courtesy, "cortesia");
+		metodos.evidencias("produto");
 		metodos.clicar(el.next3, "next");
 		
 	}
