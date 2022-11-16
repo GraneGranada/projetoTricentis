@@ -39,7 +39,7 @@ public class Steps {
 
 	@When("preencho os dados do produto")
 	public void preencho_os_dados_do_produto() {
-	   page3.productData("12/15/2022");
+	   page3.productData("12/17/2022");
 		
 	}
 

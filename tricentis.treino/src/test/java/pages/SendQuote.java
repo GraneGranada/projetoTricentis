@@ -18,6 +18,7 @@ public class SendQuote {
 		metodos.preencher(el.coments, comments, "comentarios");
 		metodos.clicar(el.btnSend, "Send");
 		metodos.validarTexto(el.msgSucefull, "Sending e-mail success!");
+		metodos.evidencias("Sucesso");
 		metodos.clicar(el.btnOk, "ok");
 		
 		
